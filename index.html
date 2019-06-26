@@ -1,220 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Plastilin</title>
-    <link rel="icon" href="img/favicon.png" />
-    <link href="css/style.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="js/slick/slick.css" rel="stylesheet">
-    <link href="js/slick/slick-theme.css" rel="stylesheet">
-
+    <title>Javascript exercise</title>
 </head>
 
 <body>
-
-    <header class="header">
-
-        <div class="box">
-            <div class="container">
-                <h1 class="header__title">The cloud communications solution from a Gartner Magic Quadrant Leader
-                </h1>
-            </div>
-            <div class="container">
-                <div class="menu">
-                    <div class="menu__item"><a href="#">Read report</a></div>
-                    <div class="menu__item"><a href="#">View demo</a></div>
-
-                </div>
-            </div>
-
-        </div>
-        <div class="overlay"></div>
-    </header>
-
-
-
-
-    <section class="slaider">
-        <div class="box">
-
-            <div class="slaider__header container">
-                <div class="slaider__title">
-                    <p><a href="">Smart designe</a></p>
-                </div>
-                <div class="vertical-line">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="2" height="64" viewBox="0 0 2 64">
-                        <path id="vertical-line.svg" class="cls-1" fill="none" stroke="#767676" stroke-width="1px" fill-rule="evenodd" opacity="0.2" d="M624,867h1v63h-1V867Z" transform="translate(-623.5 -866.5)"/>
-                    </svg>
-                </div>
-                <div class="slaider__title">
-                    <p><a href="">Simple to use</a></p>
-                </div>
-                <div class="horizontal-line">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="981" height="2" viewBox="0 0 981 2">
-                        <path id="horizontal-line.svg" class="cls-1" fill="none" stroke="#767676" stroke-width="1px" fill-rule="evenodd" opacity="0.2" d="M134,948v-1h980v1H134Z" transform="translate(-133.5 -946.5)"/>
-                    </svg>
-                </div>
-
-            </div>
-
-
-            <div class="slick-slaider">
-                <div class="slick-slaider-1">
-                    <div class="container">
-                        <div class="slaid-img-1"><img src="img/slaid-1png.png" alt="slaid-1"></div>
-                        <div class="container">
-                            <div class="slaid-text slaid-text-1">
-                                <p>
-                                    The wires of old are gone, so you’re never tied to a single location, device, or your desk.
-                                </p>
-                            </div>
-
-                            <div class="slaid-text slaid-text-2">
-                                <p>
-                                    Your cloud phone system follows you wherever you go, so you never miss a call. </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="slick-slaider-2">
-                    <div class="container">
-                        <div class="slaid-img-2"><img src="img/slaid-2png.png" alt="slaid-1"></div>
-                        <div class="container">
-                            <div class="slaid-text slaid-text-3">
-                                <p>
-                                    The technology is seamlessly wrapped up in a remarkably intuitive interface that works across desk phones, smartphones, tablets, and computers. </p>
-                            </div>
-
-                            <div class="slaid-text slaid-text-3">
-                                <p>
-                                    Setup, management, and use are brilliantly easy, but there’s dedicated support whenever you need assistance.
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-            <div class="horizontal-line container">
-                <svg xmlns="http://www.w3.org/2000/svg" width="981" height="2" viewBox="0 0 981 2">
-                    <path id="horizontal-line.svg" class="cls-1" fill="none" stroke="#767676" stroke-width="1px" fill-rule="evenodd" opacity="0.2" d="M134,948v-1h980v1H134Z" transform="translate(-133.5 -946.5)"/>
-                </svg>
-            </div>
-            <div class="slick-slaider">
-                <div class="slick-slaider-2">
-                    <div class="container">
-                        <div class="slaid-img-2"><img src="img/slaid-2png.png" alt="slaid-1"></div>
-                        <div class="container">
-                            <div class="slaid-text slaid-text-3">
-                                <p>
-                                    The technology is seamlessly wrapped up in a remarkably intuitive interface that works across desk phones, smartphones, tablets, and computers. </p>
-                            </div>
-
-                            <div class="slaid-text slaid-text-3">
-                                <p>
-                                    Setup, management, and use are brilliantly easy, but there’s dedicated support whenever you need assistance.
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="slick-slaider-1">
-                    <div class="container">
-                        <div class="slaid-img-1"><img src="img/slaid-1png.png" alt="slaid-1"></div>
-                        <div class="container">
-                            <div class="slaid-text slaid-text-1">
-                                <p>
-                                    The wires of old are gone, so you’re never tied to a single location, device, or your desk.
-                                </p>
-                            </div>
-
-                            <div class="slaid-text slaid-text-2">
-                                <p>
-                                    Your cloud phone system follows you wherever you go, so you never miss a call. </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
-
-        </div>
-
-    </section>
-
-    <section class="slaider-mob">
-        <div class="box">
-
-            <div class="slaider-mob__img container">
-                <img src="img/slaider-mob.png" alt="slaider-mob">
-
-            </div>
-            <div class="toggle-slaid">
-                <div class="wrapper_relative">
-                    <div class="animate" onclick="currentSlide(1)">
-                        <svg width="22" height="9">
-                            <polyline points="0,9 11,0 22,9" fill="#fff" stroke="#ebebeb" stroke-width="1" />
-                        </svg>
-                    </div>
-                </div>
-                <div class="slaider__header container">
-                    <div class="slaider__title dottitle" onclick="currentSlide(1)">
-                        <p>Smart designe</p>
-                    </div>
-                    <div class="vertical-line">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1" height="32" viewBox="0 0 2 64">
-                            <path id="vertical-line.svg" class="cls-1" fill="none" stroke="#767676" stroke-width="1px" fill-rule="evenodd" opacity="0.2" d="M624,867h1v63h-1V867Z" transform="translate(-623.5 -866.5)"/>
-                        </svg>
-                    </div>
-                    <div class="slaider__title dottitle" onclick="currentSlide(2)">
-                        <p>Simple to use</p>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div class="mySlides fade">
-                        <div class="slaid-text">
-                            <p>
-                                Your cloud phone system follows you wherever you go, so you never miss a call.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="mySlides fade">
-                        <div class="slaid-text">
-                            <p>
-                                The wires of old are gone, so you’re never tied to a single location, device, or your desk.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-
-
-            </div>
-
-
-            <div class="dot-wrapper">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-            </div>
-
-    </section>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
-    <script src="js/script.js"></script>
-
-
+    <script src="script.js"></script>
+    <script>
+        const menuItems = [{
+            name: 'American Hot Dog',
+            description: 'Nobis odio necessitatibus expedita vitae amet error eum mollitia, non voluptas? Ex magnam recusandae iure voluptates officia fugit itaque nemo illo velit.',
+            expirationDate: '09-24-2019'
+        }, {
+            name: 'Beano',
+            description: 'Facilis reiciendis vero molestias error eaque mollitia sapiente porro illum. Repudiandae sint impedit nihil dignissimos autem animi ipsum tempore nisi ratione distinctio.',
+            expirationDate: '03-11-2019'
+        }, {
+            name: 'Dog From Hell',
+            description: 'Aspernatur, eaque soluta, nesciunt distinctio at repudiandae iusto atque quas aut nihil enim eveniet! Alias, sint numquam saepe quibusdam. Voluptas, nisi, voluptate.',
+            expirationDate: '03-21-2019'
+        }, {
+            name: 'Rockaway Beach',
+            description: 'Animi, at, sit. Facere consectetur sed reprehenderit eveniet, voluptatibus, dolorum quis, at nihil fugit ullam dicta distinctio libero quisquam iste perspiciatis architecto.',
+            expirationDate: '10-03-2019'
+        }, {
+            name: 'The Real Man',
+            description: 'Dignissimos unde tempore, qui cumque dicta ullam maxime eveniet totam minus debitis pariatur a perspiciatis deleniti, nostrum soluta, voluptas numquam et aliquam!',
+            expirationDate: '05-27-2019'
+        }, {
+            name: 'Westside, Bestside',
+            description: 'Beatae ratione sint facilis, tenetur similique! Dicta natus esse maiores illum. Sit id enim ex, maiores mollitia molestiae possimus ipsam aspernatur, corrupti.',
+            expirationDate: '03-24-2019'
+        }, ];
+        const renderList = (items) => {
+                if (!Array.isArray(items)) {
+                    console.error('Please check that you return array');
+                    return `<h2 style="color:red">Error: It's not an array. Please check that you return array</h2>`
+                }
+                return `
+        <ul class="menu">
+          ${items.map(item => {
+            return `
+              <li>
+                <h2>${item.name}</h2>
+                <p>Expiration date - ${item.expirationDate}</p>
+                <p>${item.description}</p>
+              </li>
+            `;
+          }).join('')}
+        </ul>
+      `;
+    };
+    const filteredItems = filterByExpiration(menuItems);
+    document.body.innerHTML = renderList(filteredItems);
+    </script>
 </body>
 
 </html>
